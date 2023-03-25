@@ -1,4 +1,4 @@
-# ohueter's Homebrew Tap
+# legobrick's Homebrew Tap
 
 My personal Homebrew tap housing formulas for my Homebrew projects.
 
@@ -8,15 +8,15 @@ My personal Homebrew tap housing formulas for my Homebrew projects.
 
 ```bash
 # Setup tap
-brew tap ohueter/tap
+brew tap legobrick/tap
 
 # Check the tap for available formulas
-brew search ohueter/tap
+brew search legobrick/tap
 ```
 
-| Project                                           | Description                                       | Install                  |
-| ------------------------------------------------- | ------------------------------------------------- | ------------------------ |
-| [autokbisw](https://github.com/ohueter/autokbisw) | Automatic keyboard/input source switching for OSX | `brew install autokbisw` |
+| Project                                             | Description                                       | Install                  |
+| --------------------------------------------------- | ------------------------------------------------- | ------------------------ |
+| [autokbisw](https://github.com/legobrick/autokbisw) | Automatic keyboard/input source switching for OSX | `brew install autokbisw` |
 
 ## Development
 
@@ -34,5 +34,5 @@ tar -czf name-of-tar.tar.gz path/to/content
 shasum -a 256 name-of-tar.tgz
 
 # Fix style offenses in formula
-brew style --fix ohueter/tap
+brew style --fix legobrick/tap
 ```
